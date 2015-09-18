@@ -139,7 +139,7 @@ namespace FloodControlCh2
             int x = textureOffsetX;
             int y = textureOffsetY;
 
-            if (piecSuffix.Contains("W"))
+            if (pieceSuffix.Contains("W"))
                 x += PieceWidth + texturePaddingX;
 
             y += (Array.IndexOf(PieceTypes, pieceType) *
